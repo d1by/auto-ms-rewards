@@ -69,7 +69,7 @@ Discord: diby#9420
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the [MIT](https://github.com/d1by/auto-ms-rewards/blob/6a0bbfe8c13ecc194c1bdafa27c86ce8c00dad7c/LICENSE) License - see the LICENSE.md file for details
 
 ## Acknowledgments
 

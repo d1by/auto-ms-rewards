@@ -60,7 +60,6 @@ python -c "import selenium; print(selenium.__version__)"
 ## Authors
 
 Diby M.  
-Github: [@d1by](https://github.com/d1by/)
 Discord: diby#9420
 [Discord Server](https://discord.gg/frErDjHStx)
 

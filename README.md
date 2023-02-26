@@ -40,16 +40,16 @@ python -c "import selenium; print(selenium.__version__)"
 
 * Find your Edge User Data folder:
  * Default: 
- ```
- C:\Users\<Name>\AppData\Local\Microsoft\Edge\User Data
- ```
+       ```
+       C:\Users\<Name>\AppData\Local\Microsoft\Edge\User Data
+       ```
  * If your Microsoft Edge is installed elsewhere, go to edge://versions -> Profile Path -> Copy everything just before \Profile X
  * Replace file path in main.py
 * Edit number of searches, if it is different from the default (10)
 
 ## Troubleshooting
 
-- Edge opens, but bing.com doesn't load:
+# Edge opens, but bing.com doesn't load:
  * end the Microsoft Edge task in task manager
  * run again
  * if the problem persists, restart your system

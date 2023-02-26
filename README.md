@@ -6,7 +6,7 @@ automatically claims maximum number of daily points achievable
 
 Input: 
 * number of searches (varies with Microsoft Rewards Level - default: 10)
-* path to Edge User Data folder
+* path to Edge User Data folder  
 Output:
 * performs searches on Bing using Microsoft Edge
 * clears searches from browser history 

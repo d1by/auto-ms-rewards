@@ -9,6 +9,7 @@ Input:
 * path to Edge User Data folder
  
 Output:
+* scrapes bing.com home page for news article links
 * performs searches on Bing using Microsoft Edge
 * clears searches from browser history 
 
@@ -63,6 +64,9 @@ Discord: diby#9420
 [Discord Server](https://discord.gg/frErDjHStx)
 
 ## Version History
+
+* 2.0
+    * now scrapes bing.com home page for news article links, and uses this to perform searches 
 
 * 1.0
     * Initial Release

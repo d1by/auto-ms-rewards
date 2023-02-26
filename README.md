@@ -11,7 +11,7 @@ Input:
 Output:
 * scrapes bing.com home page for news article links
 * performs searches on Bing using Microsoft Edge
-* clears searches from browser history 
+* clears only these searches from browser history 
 
 ## Getting Started
 

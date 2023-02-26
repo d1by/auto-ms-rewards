@@ -2,6 +2,7 @@
 # auto-ms-rewards v1.0 (https://github.com/d1by/auto-ms-rewards)      
 # Author: Diby M. (github.com/d1by)
 # Contact me: diby#9420
+# Discord Server: https://discord.gg/frErDjHStx
 # Date: February 26 2023
 ##########################
 ##########################

@@ -44,7 +44,7 @@ python -c "import selenium; print(selenium.__version__)"
        ```
        C:\Users\<Name>\AppData\Local\Microsoft\Edge\User Data
        ```
- * If your Microsoft Edge is installed elsewhere, go to edge://versions -> Profile Path -> Copy everything just before \Profile X
+ * If your Microsoft Edge is installed elsewhere, open Edge and go to edge://versions -> Profile Path -> Copy everything just and before ```\Profile X```
  * Replace file path in auto-ms-rewards.py
 * Edit number of searches, if it is different from the default (10)
 

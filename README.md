@@ -2,7 +2,7 @@
 
 automatically claims maximum number of daily points achievable
 
-### DISCLAIMER
+# DISCLAIMER
 
 https://promos.microsoftrewards.com/US/en/MS_PB_APR_INT_21/rules
 #### "Use of any automated system to participate is prohibited and will result in disqualification."

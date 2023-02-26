@@ -29,15 +29,15 @@ python -c "import selenium; print(selenium.__version__)"
 ### Installing
 
 * Download python: https://www.python.org/downloads/
-* Install pyautogui:
+* Install Selenium:
   * Type the following in a command prompt:
-  ```
-  pip install selenium
-  ```
+   ```
+   pip install selenium
+   ```
 
 ### Executing program
 
-* Find your 
+* Find your Edge User Data folder:
 * Step-by-step bullets
 ```
 code blocks for commands

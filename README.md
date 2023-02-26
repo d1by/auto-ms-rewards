@@ -14,7 +14,7 @@ Output:
 ## Getting Started
 
 ### Dependencies
-
+* Microsoft Edge
 * Python (tested on 3.10.7)
 * Selenium (tested on 4.8.2)
 
@@ -27,7 +27,8 @@ python -c "import selenium; print(selenium.__version__)"
 ```
 
 ### Installing
-
+* Download Microsoft Edge, if not already installed
+* Sign into Microsoft Edge with your account
 * Download python: https://www.python.org/downloads/
 * Install Selenium:
   * Type the following in a command prompt:
@@ -38,42 +39,40 @@ python -c "import selenium; print(selenium.__version__)"
 ### Executing program
 
 * Find your Edge User Data folder:
-* Step-by-step bullets
-```
-code blocks for commands
-```
+ * Default: 
+ ```
+ C:\Users\<Name>\AppData\Local\Microsoft\Edge\User Data
+ ```
+ * If your Microsoft Edge is installed elsewhere, go to edge://versions -> Profile Path -> Copy everything just before \Profile X
+ * Replace file path in main.py
+* Edit number of searches, if it is different from the default (10)
 
-## Help
+## Troubleshooting
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+1) Edge opens, but bing.com doesn't load:
+ * end the Microsoft Edge in task manager
+ * restart vscode
+ * run again
+ * if the problem persists, restart your system
+ 
+ This error occurred multiple times while testing, and restarting the system worked 100% of the time
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Diby M.  
+Github: [@d1by](https://github.com/d1by/)
+Discord: diby#9420
+[Discord Server](https://discord.gg/frErDjHStx)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
+* 1.0
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Selenium with Python - Read the Docs](https://selenium-python.readthedocs.io/)

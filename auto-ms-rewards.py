@@ -6,7 +6,7 @@
 ##########################
 ##########################
 # Edit these fields:
-# (refer to README file or instructions on github)
+# (refer to README.md)
 userdata_path = r"C:\Users\Admin\AppData\Local\Microsoft\Edge\User Data"
 num_of_searches = 10
 ##########################

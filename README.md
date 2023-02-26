@@ -1,6 +1,6 @@
-# auto microsoft rewards
+# Auto Microsoft Rewards
 
-automatically perform the required number of searches using Bing on Microsoft Edge to claim all 1) daily points
+automatically claims maximum number of daily points achievable
 
 ## Description
 
@@ -31,10 +31,10 @@ python -c "import selenium; print(selenium.__version__)"
 * Sign into Microsoft Edge with your account
 * Download python: https://www.python.org/downloads/
 * Install Selenium:
-  * Type the following in a command prompt:
-   ```
-   pip install selenium
-   ```
+   * Type the following in a command prompt:
+      ```
+      pip install selenium
+      ```
 
 ### Executing program
 
@@ -50,8 +50,7 @@ python -c "import selenium; print(selenium.__version__)"
 ## Troubleshooting
 
 1) Edge opens, but bing.com doesn't load:
- * end the Microsoft Edge in task manager
- * restart vscode
+ * end the Microsoft Edge task in task manager
  * run again
  * if the problem persists, restart your system
  

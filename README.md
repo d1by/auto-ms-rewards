@@ -2,6 +2,13 @@
 
 automatically claims maximum number of daily points achievable
 
+### DISCLAIMER
+
+https://promos.microsoftrewards.com/US/en/MS_PB_APR_INT_21/rules
+#### "Use of any automated system to participate is prohibited and will result in disqualification."
+
+This is solely for educational purposes and I will not be held liable for what others do with my code.
+
 ## Description
 
 Input: 

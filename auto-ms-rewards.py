@@ -1,8 +1,7 @@
 ##########################
-# auto-ms-rewards v1.0 (https://github.com/d1by/auto-ms-rewards)      
+# auto-ms-rewards v2.0 (https://github.com/d1by/auto-ms-rewards)      
 # Author: Diby M. (github.com/d1by)
 # Contact me: diby#9420
-# Discord Server: https://discord.gg/frErDjHStx
 # Date: February 26 2023
 ##########################
 ##########################
@@ -23,11 +22,22 @@ import time
 options = EdgeOptions()
 userdata_dir = "--user-data-dir=" + userdata_path
 options.add_argument(r'{}'.format(userdata_dir))
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
 driver = webdriver.Edge(options=options)
 
+websearches = []
 driver.get("https://bing.com")
 
+element = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.XPATH, f"//*[@id='trending_now_tile']/li[1]/a"))
+)
+
+for k in range(num_of_searches):
+    news_title = driver.find_element(By.XPATH, f"//*[@id='trending_now_tile']/li[{k+1}]/a").get_attribute("href")
+    websearches.append(news_title)
+
+print(websearches)
 #search box xpath
 search_xpath = "//*[@id='sb_form_q']"
 
@@ -40,7 +50,8 @@ for i in range(num_of_searches):
         search_form.send_keys(Keys.DELETE)
     #waits for search bar to finish loading
     WebDriverWait(driver, 20).until(EC.element_to_be_clickable(search_form)).click()
-    search_form.send_keys(f"pass {i+1}")
+    search_news = websearches[i]
+    search_form.send_keys(search_news)
     search_form.send_keys(Keys.ENTER)
     
     #waits for page to finish loading

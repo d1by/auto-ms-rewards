@@ -49,12 +49,13 @@ python -c "import selenium; print(selenium.__version__)"
 
 ## Troubleshooting
 
-# Edge opens, but bing.com doesn't load:
+#### Edge opens, but bing.com doesn't load:
  * end the Microsoft Edge task in task manager
  * run again
  * if the problem persists, restart your system
  
- This error occurred multiple times while testing, and restarting the system worked 100% of the time
+ This error occurred multiple times during testing, and restarting the system fixed it 100% of the time
+ Cause has not been determined
 
 ## Authors
 

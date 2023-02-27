@@ -1,13 +1,17 @@
-# Auto Microsoft Rewards
-
-automatically claims maximum number of daily points achievable
-
-## DISCLAIMER
+-----------------------
+# DISCLAIMER
 
 https://promos.microsoftrewards.com/US/en/MS_PB_APR_INT_21/rules
 ##### "Use of any automated system to participate is prohibited and will result in disqualification."
 
-# This is solely for educational purposes and I will not be held liable for what others may do with this code.
+# This is for educational purposes only. I do not condone the use of this code in a real world situation. I will not be held liable for what others may do this code.
+------------------------
+
+# Auto Microsoft Rewards
+
+automatically claims maximum number of daily points achievable
+
+
 
 ## Description
 

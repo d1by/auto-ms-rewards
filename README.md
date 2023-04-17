@@ -4,7 +4,7 @@
 https://promos.microsoftrewards.com/US/en/MS_PB_APR_INT_21/rules
 ##### "Use of any automated system to participate is prohibited and will result in disqualification."
 
-# This is for educational purposes only. I do not condone the use of this code in a real world situation. I will not be held liable for what others may do this code.
+# This is for educational purposes only. I do not condone the use of this script in any real world situation.
 ------------------------
 
 # Auto Microsoft Rewards

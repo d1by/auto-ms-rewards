@@ -5,7 +5,7 @@
 https://promos.microsoftrewards.com/US/en/MS_PB_APR_INT_21/rules
 # ***"Use of any automated system to participate is prohibited and will result in disqualification."***
 
-### ***This is for educational purposes only, and was created solely to test the capabilities of Selenium. I do not condone the use of this script in any real world situation.***
+### ***This is for educational purposes only, and was created solely to test the capabilities of Selenium. I do not condone the use of this code in any real world situation.***
 ---
 ---
 
